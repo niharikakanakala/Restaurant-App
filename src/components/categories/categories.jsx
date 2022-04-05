@@ -11,6 +11,7 @@ const Categories = () => {
           title={meal.title}
           image={meal.image}
           price={meal.price}
+          servingSize={meal.servingSize}
         />
       ))}
     </div>

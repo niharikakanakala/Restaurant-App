@@ -61,7 +61,7 @@ export const meals = [
   },
   {
     id: 306979,
-    title: "Oak Roasted Salmon on Ponzu Salad",
+    title: "Oak Roasted Salmon",
     image: "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
     imageType: "jpg",
     restaurantChain: "Sammys Woodfired Pizza",
@@ -76,7 +76,7 @@ export const meals = [
   },
   {
     id: 355521,
-    title: "Pan Roasted Citrus Salmon w/ Grilled Asparagus",
+    title: "Pan Roasted Citrus Salmon",
     image: "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
     imageType: "jpg",
     restaurantChain: "Gordon Biersch Brewery",
@@ -91,7 +91,7 @@ export const meals = [
   },
   {
     id: 355388,
-    title: "Gorgonzola Pear Salad w/ Roasted Jalapeno Ranch Dressing",
+    title: "Gorgonzola Pear Salad",
     image:
       "https://spoonacular.com/menuItemImages/pear-goat-cheese-pecan-salad.jpg",
     imageType: "jpg",
@@ -119,21 +119,6 @@ export const meals = [
       number: 1,
       size: 5,
       unit: "oz",
-    },
-  },
-  {
-    id: 227035,
-    title: "Strawberry Bread",
-    image: "https://images.spoonacular.com/file/wximages/227035-312x231.jpg",
-    imageType: "jpg",
-    restaurantChain: "Bob Evans",
-    servingSize: "62g",
-    readableServingSize: "2 oz",
-    price: 159,
-    servings: {
-      number: 1,
-      size: 62,
-      unit: "g",
     },
   },
 ];
