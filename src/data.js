@@ -61,7 +61,7 @@ export const meals = [
   },
   {
     id: 306979,
-    title: "Oak Roasted Salmon",
+    title: "Oak Roasted Salmon on Ponzu Salad",
     image: "https://spoonacular.com/menuItemImages/grilled-salmon.jpg",
     imageType: "jpg",
     restaurantChain: "Sammys Woodfired Pizza",
@@ -119,6 +119,22 @@ export const meals = [
       number: 1,
       size: 5,
       unit: "oz",
+    },
+  },
+  {
+    id: 227035,
+    title: "Strawberry Bread",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT084EM7RPDGIsRIEmDoXBukihP8AvB-IKpcg&usqp=CAU",
+    imageType: "jpg",
+    restaurantChain: "Bob Evans",
+    servingSize: "62g",
+    readableServingSize: "2 oz",
+    price: 159,
+    servings: {
+      number: 1,
+      size: 62,
+      unit: "g",
     },
   },
 ];

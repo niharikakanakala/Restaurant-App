@@ -1,4 +1,5 @@
 import "./category-item.styles.scss";
+import Button from "../button/button";
 
 const CategoryItem = ({ image, title, price, servingSize }) => {
   return (
@@ -11,6 +12,7 @@ const CategoryItem = ({ image, title, price, servingSize }) => {
       <div className="category-body-container">
         <p>${price}</p>
       </div>
+      <Button buttonType="inverted">ADD TO CART</Button>
     </div>
   );
 };
